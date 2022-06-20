@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700&display=swap");
+
+/* layout */
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: #131518;
+  color: white;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+  width: 412px;
+  padding: 32px;
+  margin-top: 60px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+/* font styles */
+
+h1 {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 24px;
+  color: #969fad;
+}
+
+/* button styles */
+
+.rate-btn {
+  width: 51px;
+  height: 51px;
+  background: #262e38;
+  color: #7c8798;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.rate-btn:hover {
+  background: #7c8798;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rate-btn:focus {
+  background: #fc7614;
+  color: #ffffff;
+}
+
+.submit-btn {
+  background: #fc7614;
+  color: #ffffff;
+  padding: 16px 138px;
+  border: none;
+  border-radius: 22.5px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.submit-btn:hover {
+  background: #ffffff;
+  color: #fc7614;
+  cursor: pointer;
+}
+
+/* thank you page*/
+
+.thank-you-container {
+  display: none;
+  margin: 0 auto;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+  width: 412px;
+  padding: 30px;
+  margin-top: 45px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.container-img {
+  margin-top: 45px;
+  margin-bottom: 32px;
+}
+
+.rating {
+  background: #262e38;
+  padding: 8px 19px;
+  border-radius: 22.5;
+  text-align: center;
+  color: #fc7614;
+  font-size: 15px;
+  border-radius: 22.5px;
+  margin-right: 109px;
+  margin-left: 109px;
+  margin-bottom: 32px;
+}
